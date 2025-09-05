@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quest Rotorua Central - Guest Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: #ffffffee;
+      backdrop-filter: blur(6px);
+      padding: 10px 0;
+      text-align: center;
+      border-bottom: 1px solid #dde2ea;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #004080;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #cfe0ff;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #004080;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="logo.png" alt="Quest Rotorua Central Logo">
+    </a>
+    <h1>Quest Rotorua Central</h1>
+    <p>Guest Information</p>
+  </header>
+
+  <nav>
+    <a href="#facilities">Facilities</a>
+    <a href="#wifi">Wi-Fi</a>
+    <a href="#local">Local Attractions</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="facilities">
+    <h2>Facilities</h2>
+    <p>Details about amenities, check-in/out times, parking, and guest services.</p>
+  </section>
+
+  <section id="wifi">
+    <h2>Wi-Fi</h2>
+    <p>Network: <strong>QuestRotorua</strong><br>Password: <strong>yourpassword</strong></p>
+  </section>
+
+  <section id="local">
+    <h2>Local Attractions</h2>
+    <p>Highlight nearby restaurants, cafés, hot pools, and cultural activities.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Reception Phone: (add number)<br>Duty Manager: (add number)<br>Email: (add correct one if you want it shown)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Quest Rotorua Central</p>
+  </footer>
+
+</body>
+</html>
